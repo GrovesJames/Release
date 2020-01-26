@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+/* =============================================== */
+/* Home */
+/* =============================================== */
+#home{
+    color: white;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.699)),
+    url(img/space.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: auto;
+}
+#homediv {
+    text-align: center;
+    margin-top: 25%;
+}
