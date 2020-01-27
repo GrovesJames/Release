@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+/* =============================================== */
+/* Home */
+/* =============================================== */
+#home{
+    color: white;
+    /* margin: auto; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.699)),
+    url(img/space.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: auto;
+}
+#homediv {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 200%;
+}
+#beginbutton{
+    border: 2px solid white;
+    width: 100px;
+    margin: 2% auto;
+}
+#beginbutton:hover{
+    transform: scale(1.25);
+}
