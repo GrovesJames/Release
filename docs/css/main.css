@@ -11,15 +11,8 @@
 /* Home */
 /* =============================================== */
 #home{
-    color: white;
-    /* margin: auto; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.699)),
-    url(img/space.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-    overflow-x: auto;
+    color: black;
+    height: 60vh;
 }
 #homediv {
     text-align: center;
@@ -27,10 +20,23 @@
     font-size: 200%;
 }
 #beginbutton{
-    border: 2px solid white;
+    border: 2px solid black;
     width: 100px;
     margin: 2% auto;
 }
 #beginbutton:hover{
     transform: scale(1.25);
+    cursor: pointer;
+}
+/* =============================================== */
+/* Write */
+/* =============================================== */
+#write{
+    color: black;
+    height: 60vh;
+}
+#writediv {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 200%;
 }
