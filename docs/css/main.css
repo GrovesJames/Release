@@ -16,8 +16,11 @@
 }
 #homediv {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 17%;
     font-size: 200%;
+}
+#homediv h1 {
+    font-size: 275%;
 }
 #beginbutton{
     border: 2px solid black;
@@ -39,4 +42,18 @@
     text-align: center;
     margin-top: 10%;
     font-size: 200%;
+}
+#notepad{
+    margin-top: 2%;
+    text-align: center;
+}
+#submitbutton{
+    border: 2px solid black;
+    width: 100px;
+    text-align:center;
+    margin: auto;
+}
+#submitbutton:hover{
+    transform: scale(1.25);
+    cursor: pointer;
 }
