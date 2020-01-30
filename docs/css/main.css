@@ -26,6 +26,7 @@
     border: 2px solid black;
     width: 100px;
     margin: 2% auto;
+    transition: transform 0.4s ease;
 }
 #beginbutton:hover{
     transform: scale(1.25);
@@ -52,6 +53,7 @@
     width: 100px;
     text-align:center;
     margin: auto;
+    transition: transform 0.4s ease;
 }
 #submitbutton:hover{
     transform: scale(1.25);
