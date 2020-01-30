@@ -7,9 +7,7 @@ export default function Write() {
         <div id="notepad">
             <textarea></textarea>
         </div>
-        <div id="submit">
-            <h3 id="submitbutton">Release</h3>
-        </div>
+        <h6 id="last">Submit</h6>
     </section>
     `
 }
