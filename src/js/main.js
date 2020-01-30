@@ -10,7 +10,7 @@ export default () => {
 function pageBuild() {
   home()
   writeNAV()
-  doneNAV()
+  submitNAV()
 }
   
 const app = document.getElementById('app');
@@ -31,10 +31,10 @@ function writeNAV() {
       write()
   });
 }
-function doneNAV() {
-  const navDone = document.querySelector('#submitbutton');
-  navDone.addEventListener('click', function() {
-      done()
+function submitNAV(){
+  const navSubmit = document.querySelector('#last');
+  navSubmit.addEventListener('click', function() {
+    done()
   });
 }
 
