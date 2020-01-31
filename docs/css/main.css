@@ -49,6 +49,7 @@
     text-align: center;
 }
 #last{
+    visibility: hidden;
     border: 2px solid black;
     width: 100px;
     text-align:center;
@@ -56,6 +57,26 @@
     transition: transform 0.4s ease;
 }
 #last:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+/* =============================================== */
+/* Done */
+/* =============================================== */
+#donediv{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 300%;
+}
+#again{
+    visibility: hidden;
+    border: 2px solid black;
+    width: 100px;
+    text-align:center;
+    margin: auto;
+    transition: transform 0.4s ease;
+}
+#again:hover{
     transform: scale(1.25);
     cursor: pointer;
 }
