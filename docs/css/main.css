@@ -51,7 +51,7 @@
 #last{
     visibility: hidden;
     border: 2px solid black;
-    width: 100px;
+    width: 75px;
     text-align:center;
     margin: auto;
     transition: transform 0.4s ease;
