@@ -1,6 +1,6 @@
-import Home from './Components/home'
-import Write from './Components/write'
-import Done from './Components/done'
+import Home from './components/home.js'
+import Write from './components/write.js'
+import Done from './components/done.js'
 
 
 export default () => {
