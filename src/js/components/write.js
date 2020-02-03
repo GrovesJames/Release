@@ -5,7 +5,7 @@ export default function Write() {
             <h2>What's on your mind?</h2>
         </div>
         <div id="notepad">
-            <textarea rows="12" cols="75"></textarea>
+            <textarea rows="18" cols="100"></textarea>
         </div>
     </section>
     `

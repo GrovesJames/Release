@@ -17,7 +17,7 @@
 #homediv {
     text-align: center;
     margin-top: 17%;
-    font-size: 200%;
+    font-size: 300%;
 }
 #homediv h1 {
     font-size: 275%;
@@ -42,7 +42,7 @@
 #writediv {
     text-align: center;
     margin-top: 10%;
-    font-size: 200%;
+    font-size: 300%;
 }
 #notepad{
     margin-top: 2%;
@@ -54,10 +54,11 @@
     width: 75px;
     text-align:center;
     margin: auto;
+    transform: scale(1.5);
     transition: transform 0.4s ease;
 }
 #last:hover{
-    transform: scale(1.25);
+    transform: scale(1.75);
     cursor: pointer;
 }
 /* =============================================== */
@@ -66,7 +67,7 @@
 #donediv{
     text-align: center;
     margin-top: 20%;
-    font-size: 300%;
+    font-size: 400%;
 }
 #again{
     visibility: hidden;
@@ -74,9 +75,10 @@
     width: 100px;
     text-align:center;
     margin: auto;
+    transform: scale(1.5);
     transition: transform 0.4s ease;
 }
 #again:hover{
-    transform: scale(1.25);
+    transform: scale(1.75);
     cursor: pointer;
 }
